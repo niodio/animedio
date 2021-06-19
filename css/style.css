@@ -130,7 +130,20 @@ ul li {
         /* alinha na horizontal */
     }
 
+    .descricao{
+        display: none;
+    }
+
     .logo {
         margin: 0 auto;
+    }
+
+    .botoes{
+        margin-top: 6vh;
+    }
+    .btn{
+        width: 80vw;
+        margin-bottom: 6vh;
+
     }
 }
