@@ -14,28 +14,21 @@
     text-decoration: none;
     border: none;
     font-size: 14px;
-
 }
 
 body {
     background: var(--preta);
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100vw;
     color: #fff;
 }
-
-/*  */
-
-.wrapper {
-    margin: 0px 40px 0px 40px;
-}
-
 
 .wrapper-nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    height: 13vh;
     /* alinha na horizontal */
 
 }
@@ -55,18 +48,78 @@ ul li {
     transition: .5s;
 }
 
-.item {
+.wrapper-nav .item {
     padding: 10px;
     color: var(--corLink);
 }
 
-.item:hover {
+.wrapper-nav .item:hover {
     color: var(--corLinkHover);
     transition: .5s;
     font-weight: bold;
+}
+
+.filme-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('/assets/img/sasuke-naruto-sage-mode-01.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    /* background-size: auto; */
+}
+
+.titulo {
+    font-size: clamp(2em, 2em + 2vw, 2.5em);
+    margin-left: 6vw;
+}
+
+.descricao {
+    /* responsividade em texto com clamp :) */
+    font-size: clamp(2vw);
+    width: 60vw;
+    margin-top: 3vh;
+    margin-bottom: 9vh;
+    margin-left: 6vw;
 
 }
 
+.botoes {
+    margin-left: 6vw;
+}
+
+.btn {
+    padding: 2vh;
+    cursor: pointer;
+    margin-right: 2vw;
+    color: var(--corLink);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    color: var(--corLinkHover);
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid grey;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.fas{
+    margin-right: 1vw;
+    font-size: 3vh;
+}
+
+/* inicio owl */
+.box-filme{
+    display: block;
+    width: 200px;
+    height: 300px;
+}
+/* fim owl */
 
 @media (max-width: 530px) {
     .wrapper-nav {
