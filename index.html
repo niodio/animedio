@@ -28,7 +28,8 @@
     </header>
 
     <main>
-        <div class="filme-principal">
+        <div class="filme-principal" id="teste" name="img">
+
             <div class="container">
                 <h3 class="titulo">Naruto Shippuden</h3>
                 <p class="descricao">Demônios que antes quase destruíram o mundo, agora foram libertados por alguém.
@@ -53,50 +54,51 @@
     <div class="carrosel-filmes">
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img class="box-filme" src="./assets/img/anime-black-clover-regressa-a-7-de-julho_vesu.jpg" alt=""
-                    srcset="">
+                <img onclick="getLink(this)" class="box-filme"
+                    src="./assets/img/anime-black-clover-regressa-a-7-de-julho_vesu.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/bleach.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/bleach.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/death-note.jpg" alt="" srcset="">
+                <img id="teste" onclick="getLink(this)" class="box-filme" src="./assets/img/death-note.jpg"
+                    alt="anime" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/Demon-Slayer.png" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/Demon-Slayer.png" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/dragon-ball.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/dragon-ball.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/gintama.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/gintama.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/jujutsu-kaisen.webp" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/jujutsu-kaisen.webp" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/jujutsu.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/jujutsu.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/naruto-trio.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/naruto-trio.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/naruto.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/naruto.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/one-peace.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/one-peace.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/one-punch-man.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/one-punch-man.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/yuyuhakusho.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/yuyuhakusho.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/sasuke-naruto-sage-mode-01.jpg" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/sasuke-naruto-sage-mode-01.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="./assets/img/tokyo-goaw.webp" alt="" srcset="">
+                <img onclick="getLink(this)" class="box-filme" src="./assets/img/tokyo-goaw.webp" alt="" srcset="">
             </div>
         </div>
     </div>
@@ -107,6 +109,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/app.js"></script>
 
 
 

@@ -63,7 +63,7 @@ ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('/assets/img/sasuke-naruto-sage-mode-01.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('');
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
